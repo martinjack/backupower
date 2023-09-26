@@ -27,6 +27,8 @@
 * Voltage Sensor
 * Relay module (12V 2 Channel)
 
+![hardware](https://github.com/martinjack/backupower/blob/master/doc/hardware.jpg)
+
 ## Build web interface
 ```ssh
 npm i && npm build
