@@ -1,0 +1,182 @@
+// Bootstrap
+@import "bootstrap/dist/css/bootstrap.css";
+@import "bootstrap-vue-next/dist/bootstrap-vue-next.css";
+// Toast
+@import "vue3-toastify/dist/index.css";
+
+:root {
+  --color-icon: rgb(5, 158, 138);
+  --color-text: #ffffff;
+}
+
+// Scrollbar
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #161616;
+}
+
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff34;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #161616;
+  border-radius: 0px;
+  border: 3px solid;
+}
+//
+
+html,
+body {
+  background: #000000;
+}
+
+h2,
+h3,
+h5,
+span {
+  color: var(--color-text);
+}
+
+h3 .material-design-icon {
+  color: var(--color-icon);
+}
+
+// Content
+.logo {
+  font-weight: bold;
+}
+
+.data-title {
+  font-size: 25px;
+
+  & .material-design-icon {
+    margin-right: 10px;
+    color: var(--color-icon);
+  }
+}
+
+.data-units {
+  color: var(--color-text);
+  font-size: 1em;
+}
+
+.form-control-lg {
+  font-size: 2.25rem;
+}
+
+.col-md-3,
+.col-xl-3,
+.col-sm-2 {
+  display: flex;
+  align-items: center;
+}
+
+.settings {
+  color: var(--color-text);
+
+  & .material-design-icon {
+    color: var(--color-icon);
+  }
+}
+
+.card-header-tabs {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: #161616;
+  color: #ffffff;
+
+  &-header {
+    padding-top: 10px;
+  }
+}
+
+.text-white a {
+  color: var(--color-text) !important;
+}
+
+.b-overlay-wrap {
+  position: static !important;
+}
+
+.form-check-input,
+.form-check-label {
+  cursor: pointer;
+}
+
+.low-battery {
+  color: #ffff00 !important;
+}
+
+.hlow-battery {
+  color: #ff0000 !important;
+}
+
+.form-switch {
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.version {
+  color: #cccccc5e;
+}
+
+//
+
+.loading {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 45px;
+  height: 45px;
+}
+
+.loading:after {
+  content: " ";
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: loading 1.2s linear infinite;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 380px) {
+  .data-title,
+  .data-units {
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .col-12 {
+    justify-content: center;
+    display: flex;
+  }
+
+  .form-control-lg {
+    margin-left: 30px;
+  }
+
+  .data-units {
+    font-size: 2em;
+  }
+}
