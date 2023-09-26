@@ -31,7 +31,7 @@
 
 ## Build web interface
 ```ssh
-npm i && npm build
+npm i && npm run build
 ```
 
 ## Upload web interface(LittleFS)
