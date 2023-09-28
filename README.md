@@ -12,11 +12,6 @@
 
 ## Requirements
 * Arduino IDE
-* OneWire
-* DallasTemperature
-* WiFi
-* ESPAsyncWebServer
-* ArduinoJson
 
 ## Libraries
 * [DallasTemperature](https://github.com/milesburton/Arduino-Temperature-Control-Library)
