@@ -4,9 +4,11 @@
 
 <p align="center">
     Backup power inverter v220 control on based ESP32
+    <br/>
+    <br/>
+    <img src="https://img.shields.io/github/v/tag/martinjack/backupower?include_prereleases&label=version" alt="version"/>
+    <img src="https://img.shields.io/github/license/martinjack/backupower" alt="version"/>
 </p>
-
-![Version](https://img.shields.io/github/v/tag/martinjack/backupower?include_prereleases&label=version) ![License](https://img.shields.io/github/license/martinjack/backupower)
 
 ## Requirements
 * Arduino IDE
