@@ -1,6 +1,12 @@
-![header](https://github.com/martinjack/backupower/blob/master/doc/logo.png)
+<p align="center">
+    <img src="https://github.com/martinjack/backupower/blob/master/doc/logo.png?raw=true"/>
+</p>
 
-# Backupower - Backup power v220 control inverter
+<p align="center">
+    Backup power inverter v220 control on based ESP32
+</p>
+
+![Version](https://img.shields.io/github/v/tag/martinjack/backupower?include_prereleases&label=version) ![License](https://img.shields.io/github/license/martinjack/backupower)
 
 ## Requirements
 * Arduino IDE
@@ -27,7 +33,7 @@
 * Voltage Sensor
 * Relay module (12V 2 Channel)
 
-![hardware](https://github.com/martinjack/backupower/blob/master/doc/hardware.jpg)
+![hardware](https://github.com/martinjack/backupower/blob/master/doc/hardware.jpg?raw=true)
 
 ## Build web interface
 ```ssh
@@ -38,7 +44,7 @@ npm i && npm run build
 ```text
 https://github.com/lorol/arduino-esp32fs-plugin
 ```
-![upload_webinterface](https://github.com/martinjack/backupower/blob/master/doc/upload_webinterface.png)
+![upload_webinterface](https://github.com/martinjack/backupower/blob/master/doc/upload_webinterface.png?raw=true)
 
 ## WEB Interface
-![interface](https://github.com/martinjack/backupower/blob/master/doc/interface.gif)
+![interface](https://github.com/martinjack/backupower/blob/master/doc/interface.gif?raw=true)
